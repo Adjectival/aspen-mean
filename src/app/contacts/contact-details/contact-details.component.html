@@ -1,4 +1,4 @@
-<div *ngIf="contact" class="row card p-3">
+<div *ngIf="contact" class="row card p-1">
   <div class="col-md-12">
     <h2 *ngIf="contact._id">Property Details</h2>
     <h2 *ngIf="!contact._id">Add New Property</h2>
@@ -19,7 +19,7 @@
       <input class="form-control" name="contact-phone-mobile" [(ngModel)]="contact.phone.mobile" placeholder="1994"/>
     </div>
     <div>
-        <img src="contact.phone.work" alt="building image" style="max-width:fill-available;">
+        <img src="{{contact.phone.work}}" alt="building image" style="max-width:fill-available;">
     </div>
     <div class="form-group">
       <label for="contact-phone-work">Image URL</label>
