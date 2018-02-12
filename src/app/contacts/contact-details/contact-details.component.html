@@ -1,5 +1,5 @@
 <div *ngIf="contact" class="row">
-  <div class="col-md-12">
+  <div class="col-md-12 card p-1 mx-2 mt-5">
     <h2 *ngIf="contact._id">Property Details</h2>
     <h2 *ngIf="!contact._id">Add New Property</h2>
   </div>
@@ -15,11 +15,11 @@
     </div>
     <div class="form-group">
       <input class="form-control" name="contact-email" [(ngModel)]="contact.email" placeholder="112,000"/>
-      <label for="contact-email">commercial space (sqft)</label>
+      <label for="contact-email">Commercial space (sqft)</label>
     </div>
     <div class="form-group">
       <input class="form-control" name="contact-phone-mobile" [(ngModel)]="contact.phone.mobile" placeholder="1994"/>
-      <label for="contact-phone-mobile">Mobile</label>
+      <label for="contact-phone-mobile">Year built</label>
     </div>
     <div class="form-group">
       <input class="form-control" name="contact-phone-work" [(ngModel)]="contact.phone.work" placeholder="add image URL"/>
