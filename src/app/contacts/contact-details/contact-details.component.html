@@ -6,7 +6,7 @@
 
   <form class="col-md-12">
     <div>
-      <img src="{{contact.phone.work}}" alt="building image" style="max-width:fill-available;">
+      <img src="{{contact.phone.work}}" alt="building image" style="max-width:fit-content;">
     </div>
     <div class="form-group">
       <input class="form-control" name="contact-name" [(ngModel)]="contact.name" placeholder="Monotoli Building"/>
@@ -25,7 +25,7 @@
       <label for="contact-phone-work">Image URL</label>
     </div>
     <button class="btn btn-secondary" *ngIf="!contact._id" (click)="createContact(contact)">Create</button>
-    <button class="btn btn-info" *ngIf="contact._id" (click)="updateContact(contact)">Update</button>
+    <button class="btn" *ngIf="contact._id" (click)="updateContact(contact)" style="color:darkorange;">Update</button>
     <button class="btn btn-danger" *ngIf="contact._id" (click)="deleteContact(contact._id)">Delete</button>
   </form>
 </div>

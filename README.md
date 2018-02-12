@@ -24,12 +24,6 @@ Open localhost:4200
 
 `heroku create`
 
-`git remote add heroku <the new heroku deployment>.git`
-
-(Ensure you choose the .git repo, not the live site URL which ends in .com)
-
-`git add . && git commit -m ":tada: first commit, I <3 open source"`
-
 `git push heroku master`
 
 Navigate to the heroku URL
