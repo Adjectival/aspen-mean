@@ -1,1 +1,3 @@
-background: linear-gradient(navajowhite, whitesmoke, gainsboro, #777);
+.root-gradient {
+    background: linear-gradient(navajowhite, whitesmoke, gainsboro, #777);
+}
