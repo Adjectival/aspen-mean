@@ -23,7 +23,7 @@
     </div>
     <div class="form-group">
       <label for="contact-phone-work">Image URL</label>
-      <input class="form-control" name="contact-phone-work" [(ngModel)]="contact.phone.work" placeholder="add image URL"/>
+      <input class="form-control" name="{{contact-phone-work}}" [(ngModel)]="contact.phone.work" placeholder="add image URL"/>
     </div>
     <button class="btn btn-secondary" *ngIf="!contact._id" (click)="createContact(contact)">Create</button>
     <button class="btn btn-info" *ngIf="contact._id" (click)="updateContact(contact)">Update</button>
