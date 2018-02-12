@@ -1,6 +1,6 @@
 # Aspen Mean :see_no_evil: Rest :apple: Test :arrow_heading_up:
 
-![screenshot](amrt1.png)
+![screenshot](src\amrt1.png)
 
 Aspen Mean Rest Test is a RESTful API server and web application built with the *MEAN* stack. *MongoDB* and *Express* deliver data and websauce to your browser, which is steered by *Angular2*. All sponsored by *NodeJS*.
 
