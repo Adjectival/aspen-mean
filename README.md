@@ -9,7 +9,7 @@ Bootstrap 4 and FontAwesome 5 also included. Use liberally.
 Share alike, and enjoy the fullstack development experience in 100% glorious JavaScript.
 
 ## Develop Locally w/ Live Reloading :construction::wrench:
-`git clone https://github.com/Adjectival/mean-rest-test2 <your name choice>`
+`git clone https://github.com/Adjectival/aspen-mean <your name choice>`
 
 `cd <your name choice>`
 
@@ -24,7 +24,7 @@ Mongo script loading issue at present.
 Fullstack development possible using (manual) continuous deployment to Heroku.
 
 ## Deploy to Heroku :rocket::purple_heart:
-`git clone https://github.com/Adjectival/mean-rest-test2 <your name choice>`
+`git clone https://github.com/Adjectival/aspen-mean <your name choice>`
 
 `cd <your name choice>`
 
