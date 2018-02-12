@@ -18,11 +18,14 @@
       <label for="contact-phone-mobile">Mobile</label>
       <input class="form-control" name="contact-phone-mobile" [(ngModel)]="contact.phone.mobile" placeholder="1994"/>
     </div>
+    <div>
+        <img src="contact.phone.work" alt="building image" style="max-width:fill-available;">
+    </div>
     <div class="form-group">
       <label for="contact-phone-work">Image URL</label>
       <input class="form-control" name="contact-phone-work" [(ngModel)]="contact.phone.work" placeholder="add image URL"/>
     </div>
-    <button class="btn btn-primary" *ngIf="!contact._id" (click)="createContact(contact)">Create</button>
+    <button class="btn btn-secondary" *ngIf="!contact._id" (click)="createContact(contact)">Create</button>
     <button class="btn btn-info" *ngIf="contact._id" (click)="updateContact(contact)">Update</button>
     <button class="btn btn-danger" *ngIf="contact._id" (click)="deleteContact(contact._id)">Delete</button>
   </form>
