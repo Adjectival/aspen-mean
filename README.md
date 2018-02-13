@@ -19,7 +19,7 @@ Share alike, and enjoy the fullstack development experience in 100% glorious Jav
 
 Open localhost:4200
 
-Mongo script loading issue at present.
+Mongo script loading issue presently.
 
 Fullstack development possible using (manual) continuous deployment to Heroku.
 
