@@ -30,6 +30,8 @@ Fullstack development possible using (manual) continuous deployment to Heroku.
 
 `heroku create`
 
+`heroku addons:create mongolab`
+
 `git push heroku master`
 
 Navigate to the heroku URL
