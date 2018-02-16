@@ -2,6 +2,8 @@
 
 ![screenshot](src/amrt1.png)
 
+## [Visit this demo app on Heroku](https://mean-rest-test2.herokuapp.com/)
+
 Aspen Mean Rest Test is a RESTful API server and web application built with the *MEAN* stack. *MongoDB* and *Express* deliver data and websauce to your browser, which is steered by *Angular2*. All sponsored by *NodeJS*.
 
 Bootstrap 4 and FontAwesome 5 also included. Use liberally.
